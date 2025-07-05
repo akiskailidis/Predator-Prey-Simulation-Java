@@ -43,3 +43,29 @@ Make sure all `.java` files are in the same directory.
 ```bash
 javac *.java
 java Simulation
+
+
+When prompted, enter the number of steps for the simulation (e.g., 1000).
+
+Output Example
+o represents a rabbit
+
+X represents a fox
+
+_ represents an empty cell
+
+Example:
+
+python-repl
+Αντιγραφή
+Επεξεργασία
+_ o _ o _ _ _ _ o _ _ X _ _ _ _ _ _ _ _
+_ _ _ o _ _ _ _ _ o _ _ _ _ _ _ _ _ _ _
+...
+100 rabbits and 5 foxes
+Notes
+Grid updates after each step.
+
+Rabbits and foxes are printed in-place.
+
+The simulation shows natural cycles between prey and predator populations.
